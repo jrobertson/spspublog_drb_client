@@ -7,7 +7,7 @@ require 'drb'
 
 class SPSPubLogDRbClient
 
-  def initialize(host: '127.0.0.1', port: '90900')
+  def initialize(host: '127.0.0.1', port: '9090')
 
     DRb.start_service
     
