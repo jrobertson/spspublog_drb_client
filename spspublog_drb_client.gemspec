@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'spspublog_drb_client'
-  s.version = '0.1.1'
+  s.version = '0.2.0'
   s.summary = 'Allows remote access to an SPSPub_log object using DRb'
   s.authors = ['James Robertson']
   s.files = Dir['lib/spspublog_drb_client.rb']
