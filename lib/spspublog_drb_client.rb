@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+  #!/usr/bin/env ruby
 
 # file: spspublog_drb_client.rb
 
@@ -7,12 +7,6 @@ require 'drb'
 
 class SPSPubLogDRbClient
   
-  DEBUG   = Severity::DEBUG
-  INFO    = Severity::INFO
-  WARN    = Severity::WARN
-  ERROR   = Severity::ERROR
-  FATAL   = Severity::FATAL
-  UNKNOWN = Severity::UNKNOWN
   
   module Severity
     # Low-level information, mostly for developers.
@@ -27,7 +21,16 @@ class SPSPubLogDRbClient
     FATAL = 4
     # An unknown message that should always be logged.
     UNKNOWN = 5
-  end
+  end  
+  
+  DEBUG   = Severity::DEBUG
+  INFO    = Severity::INFO
+  WARN    = Severity::WARN
+  ERROR   = Severity::ERROR
+  FATAL   = Severity::FATAL
+  UNKNOWN = Severity::UNKNOWN
+  
+
     
   attr_accessor :level
   
